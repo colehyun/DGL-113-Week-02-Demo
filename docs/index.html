@@ -74,7 +74,7 @@
                   <li>Email support</li>
                   <li>Help center access</li>
                 </ul>
-                <button id="freebutton" type="button" class="w-100 btn btn-lg btn-outline-primary">Select</button>
+                <button onclick="selectPlan( 'Free', 0 );" id="freebutton" type="button" class="w-100 btn btn-lg btn-outline-primary">Select</button>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
                   <li>Priority email support</li>
                   <li>Help center access</li>
                 </ul>
-                <button id="probutton" type="button" class="w-100 btn btn-lg btn-primary">Select</button>
+                <button onclick="selectPlan('Pro', 15 );" id="probutton" type="button" class="w-100 btn btn-lg btn-primary">Select</button>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@
                   <li>Phone and email support</li>
                   <li>Help center access</li>
                 </ul>
-                <button id="enterprisebutton" type="button" class="w-100 btn btn-lg btn-primary">Select</button>
+                <button onclick="selectPlan('Enterprise', 29 );" id="enterprisebutton" type="button" class="w-100 btn btn-lg btn-primary">Select</button>
               </div>
             </div>
           </div>
@@ -127,5 +127,6 @@
         </div>
       </footer>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
